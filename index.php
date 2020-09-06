@@ -10,7 +10,7 @@ include('function.php');
 
     <head>
         <meta charset="utf-8" />
-        <title>Dastyle - Admin & Dashboard Template</title>
+        <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="" name="author" />
@@ -50,11 +50,11 @@ include('function.php');
             <!--end logo-->
             <?php include('menu.php'); ?>
             <!-- end left-sidenav-->
-        
+
 
         <div class="page-wrapper">
             <!-- Top Bar Start -->
-            <div class="topbar">            
+            <div class="topbar">
                 <!-- Navbar -->
                 <?php include('head.php') ?>
                 <!-- end navbar-->
@@ -85,8 +85,8 @@ include('function.php');
                                         <a href="#" class="btn btn-sm btn-outline-primary">
                                             <i data-feather="download" class="align-self-center icon-xs"></i>
                                         </a>
-                                    </div><!--end col-->  
-                                </div><!--end row-->                                                              
+                                    </div><!--end col-->
+                                </div><!--end row-->
                             </div><!--end page-title-box-->
                         </div><!--end col-->
                     </div><!--end row-->
@@ -102,65 +102,65 @@ include('function.php');
                                         </div>
                                         <div class="col-auto align-self-center">
                                             <div class="report-main-icon bg-light-alt">
-                                                <i data-feather="users" class="align-self-center text-muted icon-md"></i>  
+                                                <i data-feather="users" class="align-self-center text-muted icon-md"></i>
                                             </div>
                                         </div>
                                     </div>
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col--> 
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                         <div class="col-md-6 col-lg-3">
                             <div class="card report-card">
                                 <div class="card-body">
-                                    <div class="row d-flex justify-content-center">                                                
+                                    <div class="row d-flex justify-content-center">
                                         <div class="col">
                                             <p class="text-dark mb-1 font-weight-semibold">Op. Ganadas</p>
                                             <h3 class="my-2"><?php echo oportunidades_wom($conn) ?></h3>
                                             </div>
                                         <div class="col-auto align-self-center">
                                             <div class="report-main-icon bg-light-alt">
-                                                <i data-feather="clock" class="align-self-center text-muted icon-md"></i>  
+                                                <i data-feather="clock" class="align-self-center text-muted icon-md"></i>
                                             </div>
-                                        </div> 
-                                    </div>
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col--> 
-                        <div class="col-md-6 col-lg-3">
-                            <div class="card report-card">
-                                <div class="card-body">
-                                    <div class="row d-flex justify-content-center">                                                
-                                        <div class="col">
-                                        <p class="text-dark mb-1 font-weight-semibold">Op. Cuota</p>
-                                     <h3 class="my-2"><?php echo oportunidades_cuota($conn) ?></h3>
-                                            
                                         </div>
-                                        <div class="col-auto align-self-center">
-                                            <div class="report-main-icon bg-light-alt">
-                                                <i data-feather="activity" class="align-self-center text-muted icon-md"></i>  
-                                            </div>
-                                        </div> 
                                     </div>
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col--> 
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                         <div class="col-md-6 col-lg-3">
                             <div class="card report-card">
                                 <div class="card-body">
                                     <div class="row d-flex justify-content-center">
-                                        <div class="col">  
+                                        <div class="col">
+                                        <p class="text-dark mb-1 font-weight-semibold">Op. Cuota</p>
+                                     <h3 class="my-2"><?php echo oportunidades_cuota($conn) ?></h3>
+
+                                        </div>
+                                        <div class="col-auto align-self-center">
+                                            <div class="report-main-icon bg-light-alt">
+                                                <i data-feather="activity" class="align-self-center text-muted icon-md"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card report-card">
+                                <div class="card-body">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col">
                                         <p class="text-dark mb-1 font-weight-semibold">Op. Compromiso</p>
-                                            <h3 class="my-2"><?php echo oportunidades_compromiso($conn) ?></h3>    
+                                            <h3 class="my-2"><?php echo oportunidades_compromiso($conn) ?></h3>
                                     </div>
                                         <div class="col-auto align-self-center">
                                             <div class="report-main-icon bg-light-alt">
-                                                <i data-feather="briefcase" class="align-self-center text-muted icon-md"></i>  
+                                                <i data-feather="briefcase" class="align-self-center text-muted icon-md"></i>
                                             </div>
-                                        </div> 
+                                        </div>
                                     </div>
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col-->                               
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                     </div><!--end row-->
 
                     <div class="row">
@@ -168,10 +168,10 @@ include('function.php');
                             <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Audience Overview</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Audience Overview</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                    This Year<i class="las la-angle-down ml-1"></i>
@@ -182,25 +182,25 @@ include('function.php');
                                                     <a class="dropdown-item" href="#">Last Month</a>
                                                     <a class="dropdown-item" href="#">This Year</a>
                                                 </div>
-                                            </div>               
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
+                                    </div>  <!--end row-->
                                 </div><!--end card-header-->
                                 <div class="card-body">
                                     <div class="">
                                         <div id="ana_dash_1" class="apex-charts"></div>
-                                    </div> 
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col-->  
+                                    </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                         <div class="col-lg-3">
                             <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Traffic Sources</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Traffic Sources</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                    Direct<i class="las la-angle-down ml-1"></i>
@@ -211,35 +211,35 @@ include('function.php');
                                                     <a class="dropdown-item" href="#">Organic</a>
                                                     <a class="dropdown-item" href="#">Campaign</a>
                                                 </div>
-                                            </div>               
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
+                                    </div>  <!--end row-->
                                 </div><!--end card-header-->
                                 <div class="card-body">
                                     <div class="my-5">
                                         <div id="ana_1" class="apex-charts d-block w-90 mx-auto"></div>
-                                        <hr class="hr-dashed w-25 mt-0">                                                                            
-                                    </div>    
+                                        <hr class="hr-dashed w-25 mt-0">
+                                    </div>
                                     <div class="text-center">
                                         <h4>76% Direct Visitors</h4>
                                         <p class="text-muted mt-2">This is a simple hero unit, a simple jumbotron-style component</p>
                                         <button type="button" class="btn btn-sm btn-outline-primary px-3 mt-2">More details</button>
-                                   </div>                                    
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col-->                                        
+                                   </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                     </div><!--end row-->
-                    <div class="row">  
-                        
-                        
+                    <div class="row">
+
+
                         <div class="col-lg-6">
-                            <div class="card">                                
+                            <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Organic Traffic in USA</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Organic Traffic in USA</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Today<i class="las la-angle-down ml-1"></i>
@@ -249,16 +249,16 @@ include('function.php');
                                                     <a class="dropdown-item" href="#">Yesterday</a>
                                                     <a class="dropdown-item" href="#">Last Week</a>
                                                 </div>
-                                            </div>          
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
-                                </div><!--end card-header-->                                 
-                                <div class="card-body">  
-                                    <div class="row"> 
+                                    </div>  <!--end row-->
+                                </div><!--end card-header-->
+                                <div class="card-body">
+                                    <div class="row">
                                         <div class="col-lg-7">
-                                            <div id="usa" class="" style="height: 265px"></div> 
+                                            <div id="usa" class="" style="height: 265px"></div>
                                         </div><!--end col-->
-                                        <div class="col-lg-5 align-self-center">                                           
+                                        <div class="col-lg-5 align-self-center">
                                             <div class="">
                                                 <span class="text-dark">Texas</span>
                                                 <small class="float-right text-muted ml-3 font-11">81%</small>
@@ -273,7 +273,7 @@ include('function.php');
                                                 <div class="progress mt-2" style="height:3px;">
                                                     <div class="progress-bar bg-warning-50" role="progressbar" style="width: 68%; border-radius:5px;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
-                                            </div>   
+                                            </div>
                                             <div class="mt-3">
                                                 <span class="text-dark">Wyoming</span>
                                                 <small class="float-right text-muted ml-3 font-11">48%</small>
@@ -281,28 +281,28 @@ include('function.php');
                                                     <div class="progress-bar bg-warning-50" role="progressbar" style="width: 48%; border-radius:5px;" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="mt-3">
                                                 <span class="text-dark">Virginia</span>
                                                 <small class="float-right text-muted ml-3 font-11">32%</small>
                                                 <div class="progress mt-2" style="height:3px;">
                                                     <div class="progress-bar bg-warning-50" role="progressbar" style="width: 32%; border-radius:5px;" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
-                                            </div>        
+                                            </div>
                                         </div><!--end col-->
-                                    </div><!--end row-->                                     
-                                </div><!--end card-body--> 
+                                    </div><!--end row-->
+                                </div><!--end card-body-->
                             </div><!--end card-body-->
                         </div> <!--end col-->
-                        
+
                         <div class="col-lg-6">
                             <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Browser Used & Traffic Reports</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Browser Used & Traffic Reports</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <ul class="nav nav-pills-custom nav-pills mb-0" id="pills-tab" role="tablist">
                                                 <li class="nav-item mr-1">
                                                   <a class="nav-link active" id="pills-traffic-tab" data-toggle="pill" href="#Traffic_Sources" role="tab" aria-controls="pills-traffic" aria-selected="true">Traffic Sources</a>
@@ -312,7 +312,7 @@ include('function.php');
                                                 </li>
                                             </ul>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
+                                    </div>  <!--end row-->
                                 </div><!--end card-header-->
                                 <div class="card-body">
                                     <div class="tab-content">
@@ -328,40 +328,40 @@ include('function.php');
                                                         </tr><!--end tr-->
                                                     </thead>
                                                     <tbody>
-                                                        <tr>                                                        
+                                                        <tr>
                                                             <td><a href="" class="text-primary">Organic search</a></td>
                                                             <td>10853<small class="text-muted">(52%)</small></td>
                                                             <td>566<small class="text-muted">(92%)</small></td>
                                                             <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
-                                                        </tr><!--end tr-->     
-                                                        <tr>                                                        
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><a href="" class="text-primary">Direct</a></td>
                                                             <td>2545<small class="text-muted">(47%)</small></td>
                                                             <td>498<small class="text-muted">(81%)</small></td>
                                                             <td> -17.20% <i class="fas fa-caret-down text-danger font-16"></i></td>
-                                                            
-                                                        </tr><!--end tr-->    
-                                                        <tr>                                                        
+
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><a href="" class="text-primary">Referal</a></td>
-                                                            <td>1836<small class="text-muted">(38%)</small></td> 
+                                                            <td>1836<small class="text-muted">(38%)</small></td>
                                                             <td>455<small class="text-muted">(74%)</small></td>
                                                             <td> 41.12% <i class="fas fa-caret-up text-success font-16"></i></td>
-                                                            
-                                                        </tr><!--end tr-->    
-                                                        <tr>                                                        
+
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><a href="" class="text-primary">Email</a></td>
-                                                            <td>1958<small class="text-muted">(31%)</small></td> 
+                                                            <td>1958<small class="text-muted">(31%)</small></td>
                                                             <td>361<small class="text-muted">(61%)</small></td>
                                                             <td> -8.24% <i class="fas fa-caret-down text-danger font-16"></i></td>
-                                                        </tr><!--end tr-->    
-                                                        <tr>                                                        
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><a href="" class="text-primary">Social</a></td>
-                                                            <td>1566<small class="text-muted">(26%)</small></td> 
+                                                            <td>1566<small class="text-muted">(26%)</small></td>
                                                             <td>299<small class="text-muted">(49%)</small></td>
                                                             <td> 29.33% <i class="fas fa-caret-up text-success"></i></td>
-                                                        </tr><!--end tr-->                            
+                                                        </tr><!--end tr-->
                                                     </tbody>
-                                                </table> <!--end table-->                                               
+                                                </table> <!--end table-->
                                             </div><!--end /div-->
                                         </div>
                                         <div class="tab-pane fade" id="Browser_Used" role="tabpanel" aria-labelledby="pills-browser-tab">
@@ -376,39 +376,39 @@ include('function.php');
                                                         </tr><!--end tr-->
                                                     </thead>
                                                     <tbody>
-                                                        <tr>                                                        
+                                                        <tr>
                                                             <td><img src="assets/images/browser_logo/chrome.png" alt="" height="24" class="mr-2">Chrome</td>
-                                                            <td>10853<small class="text-muted">(52%)</small></td>                                   
+                                                            <td>10853<small class="text-muted">(52%)</small></td>
                                                             <td> 52.80%</td>
                                                             <td>566<small class="text-muted">(92%)</small></td>
-                                                        </tr><!--end tr-->     
-                                                        <tr>                                                        
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><img src="assets/images/browser_logo/micro-edge.png" alt="" height="24" class="mr-2">Microsoft Edge</td>
-                                                            <td>2545<small class="text-muted">(47%)</small></td>                                   
+                                                            <td>2545<small class="text-muted">(47%)</small></td>
                                                             <td> 47.54%</td>
                                                             <td>498<small class="text-muted">(81%)</small></td>
-                                                        </tr><!--end tr-->    
-                                                        <tr>                                                        
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><img src="assets/images/browser_logo/in-explorer.png" alt="" height="24" class="mr-2">Internet-Explorer</td>
-                                                            <td>1836<small class="text-muted">(38%)</small></td>                                   
+                                                            <td>1836<small class="text-muted">(38%)</small></td>
                                                             <td> 41.12%</td>
                                                             <td>455<small class="text-muted">(74%)</small></td>
-                                                        </tr><!--end tr-->    
-                                                        <tr>                                                        
+                                                        </tr><!--end tr-->
+                                                        <tr>
                                                             <td><img src="assets/images/browser_logo/opera.png" alt="" height="24" class="mr-2">Opera</td>
-                                                            <td>1958<small class="text-muted">(31%)</small></td>                                   
+                                                            <td>1958<small class="text-muted">(31%)</small></td>
                                                             <td> 36.82%</td>
                                                             <td>361<small class="text-muted">(61%)</small></td>
-                                                        </tr><!--end tr-->    
-                                                                                      
+                                                        </tr><!--end tr-->
+
                                                     </tbody>
-                                                </table> <!--end table-->                                               
-                                            </div><!--end /div-->                                            
+                                                </table> <!--end table-->
+                                            </div><!--end /div-->
                                         </div>
                                     </div>
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col-->                               
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                     </div><!--end row-->
 
                     <div class="row">
@@ -416,10 +416,10 @@ include('function.php');
                             <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Pages View by Users</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Pages View by Users</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                    Today<i class="las la-angle-down ml-1"></i>
@@ -429,38 +429,38 @@ include('function.php');
                                                     <a class="dropdown-item" href="#">Yesterday</a>
                                                     <a class="dropdown-item" href="#">Last Week</a>
                                                 </div>
-                                            </div>               
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
+                                    </div>  <!--end row-->
                                 </div><!--end card-header-->
                                 <div class="card-body">
                                     <ul class="list-group custom-list-group mb-n3">
                                         <li class="list-group-item align-items-center d-flex justify-content-between">
                                             <div class="media">
                                                 <img src="assets/images/small/img-2.jpg" height="40" class="mr-3 align-self-center rounded" alt="...">
-                                                <div class="media-body align-self-center"> 
+                                                <div class="media-body align-self-center">
                                                     <h6 class="m-0">Dastyle - Admin Dashboard</h6>
-                                                    <a href="#" class="font-12 text-primary">analytic-index.html</a>                                                                                           
+                                                    <a href="#" class="font-12 text-primary">analytic-index.html</a>
                                                 </div><!--end media body-->
                                             </div>
                                             <div class="align-self-center">
                                                 <span class="text-muted mb-n2">4.3k</span>
-                                                <div class="apexchart-wrapper w-30 align-self-center">                                                    
+                                                <div class="apexchart-wrapper w-30 align-self-center">
                                                     <div id="dash_spark_1" class="chart-gutters"></div>
                                                 </div>
-                                            </div>                                            
+                                            </div>
                                         </li>
                                         <li class="list-group-item align-items-center d-flex justify-content-between">
                                             <div class="media">
                                                 <img src="assets/images/small/img-1.jpg" height="40" class="mr-3 align-self-center rounded" alt="...">
-                                                <div class="media-body align-self-center"> 
+                                                <div class="media-body align-self-center">
                                                     <h6 class="m-0">Metrica Simple- Admin Dashboard</h6>
-                                                    <a href="#" class="font-12 text-primary">sales-index.html</a>                                                                                           
+                                                    <a href="#" class="font-12 text-primary">sales-index.html</a>
                                                 </div><!--end media body-->
                                             </div>
                                             <div class="align-self-center">
                                                 <span class="text-muted mb-n2">3.7k</span>
-                                                <div class="apexchart-wrapper w-30 align-self-center">                                                    
+                                                <div class="apexchart-wrapper w-30 align-self-center">
                                                     <div id="dash_spark_2" class="chart-gutters"></div>
                                                 </div>
                                             </div>
@@ -468,56 +468,56 @@ include('function.php');
                                         <li class="list-group-item align-items-center d-flex justify-content-between">
                                             <div class="media">
                                                 <img src="assets/images/small/img-4.jpg" height="40" class="mr-3 align-self-center rounded" alt="...">
-                                                <div class="media-body align-self-center"> 
+                                                <div class="media-body align-self-center">
                                                     <h6 class="m-0">Crovex - Admin Dashboard</h6>
-                                                    <a href="#" class="font-12 text-primary">helpdesk-index.html</a>                                                                                           
+                                                    <a href="#" class="font-12 text-primary">helpdesk-index.html</a>
                                                 </div><!--end media body-->
                                             </div>
                                             <div class="align-self-center">
                                                 <span class="text-muted mb-n2">2.9k</span>
-                                                <div class="apexchart-wrapper w-30 align-self-center">                                                    
+                                                <div class="apexchart-wrapper w-30 align-self-center">
                                                     <div id="dash_spark_3" class="chart-gutters"></div>
                                                 </div>
-                                            </div>   
+                                            </div>
                                         </li>
                                         <li class="list-group-item align-items-center d-flex justify-content-between">
                                             <div class="media">
                                                 <img src="assets/images/small/img-5.jpg" height="40" class="mr-3 align-self-center rounded" alt="...">
-                                                <div class="media-body align-self-center"> 
+                                                <div class="media-body align-self-center">
                                                     <h6 class="m-0">Annex - Admin Dashboard</h6>
-                                                    <a href="#" class="font-12 text-primary">calendar.html</a>                                                                                           
+                                                    <a href="#" class="font-12 text-primary">calendar.html</a>
                                                 </div><!--end media body-->
                                             </div>
                                             <div class="align-self-center">
                                                 <span class="text-muted mb-n2">1.2k</span>
-                                                <div class="apexchart-wrapper w-30 align-self-center">                                                    
+                                                <div class="apexchart-wrapper w-30 align-self-center">
                                                     <div id="dash_spark_4" class="chart-gutters"></div>
                                                 </div>
-                                            </div>   
+                                            </div>
                                         </li>
-                                    </ul>                                    
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col--> 
+                                    </ul>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Sessions Device</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Sessions Device</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i data-feather="more-horizontal" class="align-self-center text-muted icon-xs"></i> 
+                                                    <i data-feather="more-horizontal" class="align-self-center text-muted icon-xs"></i>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-right">
                                                     <a class="dropdown-item" href="#">Purchases</a>
                                                     <a class="dropdown-item" href="#">Emails</a>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
+                                    </div>  <!--end row-->
                                 </div><!--end card-header-->
                                 <div class="card-body">
                                     <div class="text-center">
@@ -526,18 +526,18 @@ include('function.php');
                                             <i data-feather="calendar" class="align-self-center icon-xs mr-1"></i>
                                             01 January 2020 to 31 June 2020
                                         </h6>
-                                    </div>                                     
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div> <!--end col-->  
+                                    </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
                         <div class="col-lg-4">
-                            <div class="card">   
+                            <div class="card">
                                 <div class="card-header">
                                     <div class="row align-items-center">
-                                        <div class="col">                      
-                                            <h4 class="card-title">Activity</h4>                      
+                                        <div class="col">
+                                            <h4 class="card-title">Activity</h4>
                                         </div><!--end col-->
-                                        <div class="col-auto"> 
+                                        <div class="col-auto">
                                             <div class="dropdown">
                                                 <a href="#" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     All<i class="las la-angle-down ml-1"></i>
@@ -546,11 +546,11 @@ include('function.php');
                                                     <a class="dropdown-item" href="#">Purchases</a>
                                                     <a class="dropdown-item" href="#">Emails</a>
                                                 </div>
-                                            </div>          
+                                            </div>
                                         </div><!--end col-->
-                                    </div>  <!--end row-->                                  
-                                </div><!--end card-header-->                                              
-                                <div class="card-body"> 
+                                    </div>  <!--end row-->
+                                </div><!--end card-header-->
+                                <div class="card-body">
                                     <div class="analytic-dash-activity" data-simplebar>
                                         <div class="activity">
                                             <div class="activity-info">
@@ -559,13 +559,13 @@ include('function.php');
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Donald</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Donald</span>
                                                             updated the status of <a href="">Refund #1234</a> to awaiting customer response
                                                         </p>
                                                         <small class="text-muted">10 Min ago</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div>   
+                                            </div>
 
                                             <div class="activity-info">
                                                 <div class="icon-info-activity">
@@ -573,13 +573,13 @@ include('function.php');
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Lucy Peterson</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Lucy Peterson</span>
                                                             was added to the group, group name is <a href="">Overtake</a>
                                                         </p>
                                                         <small class="text-muted">50 Min ago</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div>   
+                                            </div>
 
                                             <div class="activity-info">
                                                 <div class="icon-info-activity">
@@ -587,13 +587,13 @@ include('function.php');
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Joseph Rust</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Joseph Rust</span>
                                                             opened new showcase <a href="">Mannat #112233</a> with theme market
                                                         </p>
                                                         <small class="text-muted">10 hours ago</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div>   
+                                            </div>
 
                                             <div class="activity-info">
                                                 <div class="icon-info-activity">
@@ -601,45 +601,45 @@ include('function.php');
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Donald</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Donald</span>
                                                             updated the status of <a href="">Refund #1234</a> to awaiting customer response
                                                         </p>
                                                         <small class="text-muted">Yesterday</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div>   
+                                            </div>
                                             <div class="activity-info">
                                                 <div class="icon-info-activity">
                                                     <i class="mdi mdi-alert-outline bg-soft-primary"></i>
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Lucy Peterson</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Lucy Peterson</span>
                                                             was added to the group, group name is <a href="">Overtake</a>
                                                         </p>
                                                         <small class="text-muted">14 Nov 2019</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div> 
+                                            </div>
                                             <div class="activity-info">
                                                 <div class="icon-info-activity">
                                                     <img src="assets/images/users/user-4.jpg" alt="" class="rounded-circle thumb-md">
                                                 </div>
                                                 <div class="activity-info-text">
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-muted mb-0 font-13 w-75"><span>Joseph Rust</span> 
+                                                        <p class="text-muted mb-0 font-13 w-75"><span>Joseph Rust</span>
                                                             opened new showcase <a href="">Mannat #112233</a> with theme market
                                                         </p>
                                                         <small class="text-muted">15 Nov 2019</small>
-                                                    </div>    
+                                                    </div>
                                                 </div>
-                                            </div>                                                                                                                                      
+                                            </div>
                                         </div><!--end activity-->
                                     </div><!--end analytics-dash-activity-->
-                                </div>  <!--end card-body-->                                     
-                            </div><!--end card--> 
-                        </div><!--end col--> 
-                        
+                                </div>  <!--end card-body-->
+                            </div><!--end card-->
+                        </div><!--end col-->
+
                     </div><!--end row-->
 
                 </div><!-- container -->
@@ -650,7 +650,7 @@ include('function.php');
         </div>
         <!-- end page-wrapper -->
 
-        
+
 
 
         <!-- jQuery  -->
@@ -671,7 +671,7 @@ include('function.php');
 
         <!-- App js -->
         <script src="assets/js/app.js"></script>
-        
+
     </body>
 
 </html>
